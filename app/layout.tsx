@@ -1,6 +1,18 @@
+import { Inter, Roboto } from 'next/font/google'
 import type { Metadata } from "next";
-// import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+
+const inter = Inter({
+  subsets: ['latin', 'cyrillic'],
+  variable: '--font-inter',
+  display: 'swap',
+})
+
+const roboto = Roboto({
+  subsets: ['latin', 'cyrillic'],
+  variable: '--font-roboto',
+  display: 'swap',
+})
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -14,7 +26,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>
+      <body className={`${inter.variable} ${roboto.variable}`}>
         {children}
       </body>
     </html>
