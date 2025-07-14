@@ -27,9 +27,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.variable} ${roboto.variable}`}>
-        {children}
-
-        <p>4</p>
+        <header>Header</header>
+        <main>{children}</main>
+        <footer>Footer</footer>
       </body>
     </html>
   );
