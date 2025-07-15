@@ -1,9 +1,3 @@
-.header {
-  position: fixed;
-  z-index: 1000;
-  width: 100%;
-}
-
 .mainNav {
   display: flex;
   align-items: center;
