@@ -7,11 +7,7 @@ const Header = () => {
       <nav className={styles.mainNav}>
         <Logo />
 
-        <div className={styles.mainNavBlock}>
-          {/* <MainNav /> */}
-
-          {/* <ToggleLang /> */}
-        </div>
+        {/* <MainNav /> */}
       </nav>
     </header>
   );

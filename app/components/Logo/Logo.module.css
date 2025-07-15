@@ -1,7 +1,6 @@
 .logo {
   display: flex;
   align-items: center;
-  width: 146px;
   height: 48px;
   font-family: var(--font-inter);
   font-size: 32px;
