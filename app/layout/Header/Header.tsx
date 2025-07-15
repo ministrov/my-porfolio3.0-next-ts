@@ -3,10 +3,10 @@ import styles from './Header.module.css';
 export const Header = () => {
   return (
     <header className={styles.header}>
-      <nav className="header__nav main-nav">
+      <nav className={styles.mainNav}>
         {/* <Logo /> */}
 
-        <div className="main-nav__block">
+        <div className={styles.mainNavBlock}>
           {/* <MainNav /> */}
 
           {/* <ToggleLang /> */}
