@@ -6,17 +6,13 @@
   --color-black: #000;
 
   /* Серые оттенки */
-  --color-gray-100: #fafafa;
-  --color-gray-200: #eef4ff;
-  --color-gray-500: #777;
-  --color-gray-800: #26292d;
-  --color-gray-900: #171718;
+  --color-gray-200: #C7C7C7;
+  --color-gray-700: #222222;
+  --color-gray-800: #1A1A1A;
+  --color-gray-900: #0A0A0A;
 
   /* Синяя палитра */
-  --color-blue-300: #3073c5;
-  --color-blue-400: #3538cd;
-  --color-blue-500: #0e4ad1;
-  --color-blue-700: #0058a7;
+  --color-primary: #D3E97A;
 
   /* Красная палитра */
   --color-red-100: #fdf2fa;
@@ -24,7 +20,6 @@
   /* Радиусы */
   --border-radius-s: 8px;
 
-  --box-shadow: 0px 0px 8px 0px #00000026;
   --gradient: linear-gradient(to right, var(--color-blue-700), var(--color-blue-300));
 }
 
