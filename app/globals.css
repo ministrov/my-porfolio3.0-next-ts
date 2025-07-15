@@ -19,6 +19,7 @@
   --color-red-100: #fdf2fa;
   --color-red-500: #c11574;
   /* Радиусы */
+  --border-radius-largest: 40px;
   --border-radius-lg: 16px;
   --border-radius-md: 12px;
 

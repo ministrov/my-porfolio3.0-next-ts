@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import { Button } from '@/app/components/Button/Button';
 import styles from './Promo.module.css';
 
 export const Promo = () => {
@@ -16,14 +17,13 @@ export const Promo = () => {
             </p>
 
             <div className={styles.btns}>
-              {/* <Button
-                className={'promo__btn'}
-                href={cvPdf}
-                download={cvPdf}
-                icon={<BsBoxArrowInUpRight width={20} height={20} />}
+              <Button
+                // href={cvPdf}
+                // download={cvPdf}
+                icon={<span>1</span>}
               >
-                {t('promo.promoBtn')}
-              </Button> */}
+                {'Contact me'}
+              </Button>
 
               {/* <SocialList variant="blue" /> */}
             </div>

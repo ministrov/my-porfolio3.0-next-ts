@@ -1,7 +1,7 @@
 export default function Projects() {
   return (
     <div>
-      <h1>Projects</h1>
+      <h1 style={{ color: 'rebeccapurple' }}>Projects</h1>
     </div>
-  )
+  );
 }
