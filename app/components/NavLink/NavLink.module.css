@@ -11,7 +11,7 @@
 }
 
 .navLink:hover {
-  color: var(--color-gray-300);
+  text-decoration: none;
 }
 
 .active {
