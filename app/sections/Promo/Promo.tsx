@@ -19,12 +19,10 @@ export const Promo = () => {
             <div className={styles.btns}>
               <Button
                 // href={cvPdf}
-                // download={cvPdf}
-                icon={<span>1</span>}
+                href='/'
               >
                 {'Contact me'}
               </Button>
-
               {/* <SocialList variant="blue" /> */}
             </div>
           </div>
