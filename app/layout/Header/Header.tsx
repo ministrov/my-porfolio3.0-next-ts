@@ -1,10 +1,11 @@
+import Logo from '@/app/components/Logo/Logo';
 import styles from './Header.module.css';
 
-export const Header = () => {
+const Header = () => {
   return (
     <header className={styles.header}>
       <nav className={styles.mainNav}>
-        {/* <Logo /> */}
+        <Logo />
 
         <div className={styles.mainNavBlock}>
           {/* <MainNav /> */}
@@ -15,3 +16,5 @@ export const Header = () => {
     </header>
   );
 };
+
+export default Header;

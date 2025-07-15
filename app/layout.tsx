@@ -1,5 +1,6 @@
 import { Inter, Roboto } from 'next/font/google';
 import type { Metadata } from 'next';
+// import Header from './layout/Header/Header';
 import './globals.css';
 
 const inter = Inter({
@@ -27,7 +28,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.variable} ${roboto.variable}`}>
-        <header>Header</header>
+        {/* <Header /> */}
         <main>{children}</main>
         <footer>Footer</footer>
       </body>

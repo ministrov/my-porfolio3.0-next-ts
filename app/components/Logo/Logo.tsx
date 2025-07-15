@@ -1,9 +1,13 @@
-// import React from 'react'
+import Link from 'next/link';
+import cn from 'classnames';
+import './style.css';
 
-// const Logo = () => {
-//   return (
-//     <div>Logo</div>
-//   )
-// }
+const Logo = ({ className = null }) => {
+  return (
+    <Link href="/" className={cn('logo', className)}>
+      {'AntoshkinDEV'}
+    </Link>
+  );
+};
 
-// export default Logo
+export default Logo;
