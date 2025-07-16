@@ -1,0 +1,45 @@
+.mainNav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 60px;
+}
+
+.mainNavBlock {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+/* .main-nav__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 2rem;
+  row-gap: 1rem;
+  flex-wrap: wrap;
+} */
+
+@media only screen and (max-width: 768px) {
+  .mainNavBlock {
+    gap: 1rem;
+  }
+
+  .toggle-btn {
+    order: 1;
+  }
+
+  .main-nav__list-wrapper {
+    order: 2;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .mainNav {
+    padding: 1rem 1rem;
+  }
+
+  .mainNavBlock {
+    gap: 8px;
+  }
+}

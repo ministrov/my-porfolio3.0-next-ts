@@ -1,17 +1,21 @@
+'use client';
+
+import { usePathname } from 'next/navigation';
+import { NavMenu } from '@/app/components/NavMenu/NavMenu';
+import Logo from '@/app/components/Logo/Logo';
 import styles from './Header.module.css';
 
-export const Header = () => {
+const Header = () => {
+  const pathname = usePathname();
   return (
     <header className={styles.header}>
-      <nav className="header__nav main-nav">
-        {/* <Logo /> */}
+      <nav className={styles.mainNav}>
+        <Logo />
 
-        <div className="main-nav__block">
-          {/* <MainNav /> */}
-
-          {/* <ToggleLang /> */}
-        </div>
+        <NavMenu pathname={pathname}/>
       </nav>
     </header>
   );
 };
+
+export default Header;

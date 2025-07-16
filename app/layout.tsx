@@ -1,18 +1,19 @@
 import { Inter, Roboto } from 'next/font/google';
 import type { Metadata } from 'next';
+import Header from './layout/Header/Header';
 import './globals.css';
 
 const inter = Inter({
   subsets: ['latin', 'cyrillic'],
   variable: '--font-inter',
   display: 'swap',
-});
+}) as unknown as { variable: string };
 
 const roboto = Roboto({
   subsets: ['latin', 'cyrillic'],
   variable: '--font-roboto',
   display: 'swap',
-});
+}) as unknown as { variable: string };
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -27,7 +28,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.variable} ${roboto.variable}`}>
-        <header>Header</header>
+        <Header />
         <main>{children}</main>
         <footer>Footer</footer>
       </body>

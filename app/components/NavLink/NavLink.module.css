@@ -1,0 +1,19 @@
+.navLink {
+  display: inline-block;
+  font-family: var(--font-inter);
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.015em;
+  transition: color 0.3s ease;
+  text-decoration: none;
+  color: var(--color-gray-200);
+}
+
+.navLink:hover {
+  text-decoration: none;
+}
+
+.active {
+  text-decoration: underline;
+}
